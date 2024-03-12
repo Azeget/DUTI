@@ -10,7 +10,7 @@ for name in os.listdir(cwd):
     if name == 'animplayer.py':
         already_in = True
 
-path = cwd if already_in else os.path.join(cwd, 'ICADS')
+path = cwd if already_in else os.path.join(cwd, 'DUTI')
 runner = 'python3' if system() == 'Linux' else 'py'
 
 def start_player(peer, msg_id, token, pics, delay, play_list):
